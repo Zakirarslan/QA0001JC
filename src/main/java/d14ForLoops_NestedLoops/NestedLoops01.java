@@ -1,5 +1,7 @@
 package d14ForLoops_NestedLoops;
 
+import java.util.Scanner;
+
 public class NestedLoops01 {
 
     public static void main(String[] args) {
@@ -54,11 +56,11 @@ public class NestedLoops01 {
         }
 
         System.out.println("==================");
-        String x="x";
+        Scanner scan=new Scanner(System.in);
+        System.out.println("give row");
+
+
                 for (int i=1; i<=3;i++){
-
-
-
             for (int k=1;k<=4;k++){
                 if (k==1){
                     System.out.print("                  x ");
