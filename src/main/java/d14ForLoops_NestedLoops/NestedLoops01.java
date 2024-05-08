@@ -52,5 +52,25 @@ public class NestedLoops01 {
 
 
         }
+
+        System.out.println("==================");
+        String x="x";
+                for (int i=1; i<=3;i++){
+
+
+
+            for (int k=1;k<=4;k++){
+                if (k==1){
+                    System.out.print("                  x ");
+                }
+                System.out.print("x ");
+            }
+                    System.out.println();
+        }
+
+
+
+
+
     }
 }
