@@ -1,9 +1,20 @@
 package Test;
 
-public class Test01 {
-    public static void main(String[] args) {
-        //ggg
+import java.util.ArrayList;
+import java.util.List;
 
-        // versiyon 05
+public class Test01 {
+
+    public static void main(String[] args) {
+
     }
-}
+
+
+
+
+
+
+
+    }
+
+

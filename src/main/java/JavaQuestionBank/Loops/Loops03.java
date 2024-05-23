@@ -1,4 +1,4 @@
-package JavaQuestionBank;
+package JavaQuestionBank.Loops;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package JavaQuestionBank;
+package JavaQuestionBank.Loops;
 
 public class Loops02 {
     public static void main(String[] args) {
