@@ -1,8 +1,6 @@
-package d24InstanceBlock_OOP;
+package d25OOP_Inheritance_Overriding;
 
-public class Animal {
-
-    //OOP(Object-Oriented Programming Language)
+public class OvrAnimal {//OOP(Object-Oriented Programming Language)
 
     //It is the wat how various objects we see in real life are transferred into computer.....
     //For example: showing an objects color, state name, year of manufacture, among many other proporties
@@ -38,19 +36,30 @@ public class Animal {
     5)It leads to lower development and maintenance costs....
      */
 
-    public void eat(){
+    public void eat() {
         System.out.println("Animals eat");
     }
 
-    public void drink(){
+    public void drink() {
         System.out.println("Animals drink");
     }
 
-
-
-
-
-
-
-
+    public void price() {
+        System.out.println("Macbook price is 1000 Euro");
+    }
 }
+
+
+
+//2.Polymorphism:
+//Method Overloading + Method Overriding
+
+//It is the second principle of OOP. Polymorphism means having many forms.
+//It is used to operate a method in different ways to get desired outcomes.
+
+//There are two types.
+
+// i.Method Overloading: We have seen this
+//ii.Method Overriding - overwriting - invalidating - we will navigate among classes
+
+//It is when the Child class uses the method in the Parent class by modifying it.

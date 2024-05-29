@@ -1,6 +1,8 @@
-package d24InstanceBlock_OOP;
+package d25OOP_Inheritance_Overriding;
 
-public class Cat extends Mammal{
+import d24InstanceBlock_OOP.Mammal;
+
+public class OvrCat extends Mammal {
 
 
 

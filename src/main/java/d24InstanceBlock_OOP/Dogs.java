@@ -2,6 +2,7 @@ package d24InstanceBlock_OOP;
 
 public class Dogs  extends Mammal{
 
+
 //    public void eat(){
 //        System.out.println("Dog eat");
 //    }

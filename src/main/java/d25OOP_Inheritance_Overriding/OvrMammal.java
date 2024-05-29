@@ -1,6 +1,8 @@
-package d24InstanceBlock_OOP;
+package d25OOP_Inheritance_Overriding;
 
-public class Mammal extends Animal {
+import d24InstanceBlock_OOP.Animal;
+
+public class OvrMammal extends OvrAnimal {
 
 //    public void eat(){
 //        System.out.println("Birds eat");

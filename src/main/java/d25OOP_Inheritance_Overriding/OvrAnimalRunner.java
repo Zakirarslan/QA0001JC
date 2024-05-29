@@ -1,7 +1,11 @@
-package d24InstanceBlock_OOP;
+package d25OOP_Inheritance_Overriding;
 
-public class AnimalRunner {
+import d24InstanceBlock_OOP.Dogs;
+import d24InstanceBlock_OOP.Mammal;
+
+public class OvrAnimalRunner {
     public static void main(String[] args) {
+
 //
 //        Bird bird = new Bird();
 //        bird.eat();
@@ -16,19 +20,12 @@ public class AnimalRunner {
 //        cat.feedWithMilk();
 //
 //
-//        Dogs dogs = new Dogs();
-//        dogs.eat();
-//        dogs.drink();
-//        dogs.bark();
-//        dogs.feedWithMilk();
 
-        Mammal mammal = new Mammal();
-        mammal.feedWithMilk();
-        mammal.eat();
-        mammal.drink();
-
-    }
-
-
+    OvrDogs dogs = new OvrDogs();
+    dogs.eat();
+    dogs.drink();
+    dogs.bark();
+    dogs.feedWithMilk();
+}
 
 }
