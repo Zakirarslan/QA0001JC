@@ -33,7 +33,7 @@ public class Exceptions08 {
          */
 
 
-        FileInputStream fis = new FileInputStream("src/main/java/d31Maps_Exceptions/rt");
+        FileInputStream fis = new FileInputStream("src/main/java/d32Exceptions/file.txt");
         //what if there is no file in the root, you will get exception(fileinputnotfound exception)
 
 
@@ -41,7 +41,9 @@ public class Exceptions08 {
 
 
         //When text is over to read in file, asci value will return -1
-        while ((k = fis.read()) != -1) {
+        while ((k=fis.read())!=-1){
+
+
 
 
             System.out.print((char) k);// i used type casting to convert ascii value into the character.....
@@ -54,8 +56,24 @@ public class Exceptions08 {
         }
 
     }
+
+
 }
 
+//What are the differences between throw and throws?
+    /*
+    1) "throw" is used within the method body,
+    but throws is used after method parentesis(it is like method signature)
+    2) throw can be written and used wherever desired within method body, as many time as needed.
+    throws is written immediately after the method signature and only once....
+    3) after throw, the "new" keyword and a constructor are used to create object....
+
+    After "throws" only the exception class name is written....
+    4) throw is used to throw an exception under certain conditions...(we set a condition that age cannot be negative)
+
+    while throws is used to indicate that method can throw a certain exception........
+
+     */
 
 
 

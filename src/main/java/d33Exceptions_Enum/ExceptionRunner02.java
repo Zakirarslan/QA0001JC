@@ -1,0 +1,4 @@
+package d33Exceptions_Enum;
+
+public class ExceptionRunner02 {
+}

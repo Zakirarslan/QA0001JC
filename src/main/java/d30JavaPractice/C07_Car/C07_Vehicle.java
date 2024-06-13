@@ -7,4 +7,6 @@ public interface C07_Vehicle {
     // Create another class called "Bicycle" that implements the "Vehicle" interface and provides implementations for the "start" and "stop" methods.
     // In the "start" method, print a message indicating that the bicycle has started, and in the "stop" method, print a message indicating that the bicycle has stopped.
     // In the main method, create instances of the "Car" and "Bicycle" classes, and call their "start" and "stop" methods.
+    void start();
+    void stop();
 }

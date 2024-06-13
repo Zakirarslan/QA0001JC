@@ -3,8 +3,8 @@ package d30JavaPractice.C08_Bank;
  class C08_BankAccount {
 
     // Create a class called "BankAccount" with the following private properties: "accountNumber" (String), "balance" (double).
-     private String accountNumber="";
-      private double balance=0;
+     private String accountNumber;
+      private double balance;
     // Provide public getter and setter methods for the "accountNumber" and "balance" properties to allow controlled access to these properties.
     // Write a method called "deposit" that takes an amount (double) as a parameter and adds it to the balance.
     // Write a method called "withdraw" that takes an amount (double) as a parameter and subtracts it from the balance if there are sufficient funds; otherwise, print an error message.

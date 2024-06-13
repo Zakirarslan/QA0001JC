@@ -24,6 +24,7 @@ public class C09_LocalDate {
         //- Print Ali's birth date in Print Ali's birth date in the format DD/MM/YY..
         DateTimeFormatter frmt= DateTimeFormatter.ofPattern("dd/MM/yyyy");
         System.out.println("alisBirth.format(frmt) = " + alisBirth.format(frmt));
+        System.out.println("alisBirth = " + alisBirth);
 
         //- Write a code to check if Ali and Veli's birth dates are the same.
         boolean isSame=alisBirth.equals(VelisBirthday);
