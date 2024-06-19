@@ -1,6 +1,6 @@
 package d31Maps_Exceptions;
 
-public class Exceptions03{
+public class StringIndexOutOfBoundException03{
     public static void main(String[] args) {
 
     //StringIndexOutOfBoundException; when a non existing index is tried to be reached out,

@@ -1,6 +1,6 @@
 package d31Maps_Exceptions;
 
-public class Exceptions02 {public static void main(String[] args) {
+public class NumberFormatExceptions02 {public static void main(String[] args) {
 
 
     //NumberFormatException: When we are not able to convert a string to integer, this exception is thrown...

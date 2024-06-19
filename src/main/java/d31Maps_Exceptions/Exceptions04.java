@@ -25,7 +25,7 @@ public class Exceptions04 {
         try {
             elm = arr[idx];
             System.out.println(elm);
-        } catch (ArrayIndexOutOfBoundsException e) {
+        } catch (Exception e) {
 
             System.out.println("Index number can not be greater than " + (arr.length-1) + ".");
             System.out.println("You exceeded maximum number of elements in the storage");

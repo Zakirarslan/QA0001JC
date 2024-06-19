@@ -1,0 +1,20 @@
+
+
+List<Integer> nums = new ArrayList<>(Arrays.asList(12,9,31,14,9,10,4));
+
+public static void prinElements2(List<Integer> nums){
+
+             nums.forEach(t -> System.out.println(t)); // "t" is variable representing each element of the list
+           // coming into the loop. Same like w ....
+
+    (foreach)          nums.stream().forEach(t -> System.out.print(t + " "));   //12 9 31 14 9 10 4
+
+    (map:matematiksel işlemler)      nums.stream().map(t -> t * t).forEach(t -> System.out.print(t + " "));  // 2, 3, 4, 5, 11, 10
+
+    (filter: if konisyonu gibi)     nums.stream().filter(t->t%2==0).forEach(t-> System.out.print(t+", "));   //12, 14, 10, 4,
+    (distinct: duplikalı elemanları siler)    nums.stream().distinct().filter(t->t%2!=0).map(t->t*t*t).forEach(t-> System.out.print(t+" ")); //  27 125
+    (reduce: listteki elemanların toplamı)    Integer sum=nums.stream().reduce(0,(t,u)->t+u);  //34
+
+
+
+    }

@@ -38,8 +38,8 @@ public class Exceptions01 {
 
         */
         //Aritmethic Exceptions.....
-        divide(10,2);
-        divide2(10,0);
+       // divide(10,2);
+        divide2(10,45841254);
     }//closing main method here
 
     //first way.. not recommmend.....
