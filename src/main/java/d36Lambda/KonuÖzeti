@@ -11,9 +11,12 @@ public static void prinElements2(List<Integer> nums){
 
     (map:matematiksel işlemler)      nums.stream().map(t -> t * t).forEach(t -> System.out.print(t + " "));  // 2, 3, 4, 5, 11, 10
 
-    (filter: if konisyonu gibi)     nums.stream().filter(t->t%2==0).forEach(t-> System.out.print(t+", "));   //12, 14, 10, 4,
-    (distinct: duplikalı elemanları siler)    nums.stream().distinct().filter(t->t%2!=0).map(t->t*t*t).forEach(t-> System.out.print(t+" ")); //  27 125
-    (reduce: listteki elemanların toplamı)    Integer sum=nums.stream().reduce(0,(t,u)->t+u);  //34
+    (filter: if kondisyonu gibi)     nums.stream().filter(t->t%2==0).forEach(t-> System.out.print(t+", "));   //12, 14, 10, 4,
+    (distinct: duplik elemanları elemek için)    nums.stream().distinct().filter(t->t%2!=0).map(t->t*t*t).forEach(t-> System.out.print(t+" ")); //  27 125
+    (reduce: listteki elemanları getiri(mat işlemleri))    Integer sum=nums.stream().reduce(0,(t,u)->t+u);  //34
+    sorted(Compare.reversed): ()büyükten küçüğe sıralar
+
+    flatMap
 
 
 
